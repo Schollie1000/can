@@ -16,7 +16,7 @@ const (
 
 const (
 	// MaxFrameDataLength defines the max length of a CAN data frame defined in ISO 11898-1.
-	MaxFrameDataLength = 8
+	MaxFrameDataLength = 24   //8  normal 24 for db
 	// MaxExtFrameDataLength defines the max length of an CAN extended data frame defined in ISO ISO 11898-7.
 	MaxExtFrameDataLength = 64
 )
